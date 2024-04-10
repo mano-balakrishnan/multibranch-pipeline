@@ -5,6 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 // Your build steps here
+                echo 'From branch 1'
                 echo 'Building...'
             }
         }
